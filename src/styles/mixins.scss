@@ -1,0 +1,12 @@
+@mixin header-footer-styles {
+  background: #00C9FF;
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF); 
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+  padding: 10px;
+  color: white;
+}
+
+@mixin raised-button {
+  margin: 20px;
+  text-align: center;
+}

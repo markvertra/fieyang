@@ -1,0 +1,9 @@
+@import '../../../styles/mixins';
+
+.Header {
+  @include header-footer-styles; 
+
+  &__title {
+    margin: 0;
+  }
+}
